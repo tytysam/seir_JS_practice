@@ -18,11 +18,11 @@
 
 ## Getting Started
 
-This weekend's homework comes in **two required parts**: 
+This weekend's homework comes in **three required parts**: 
 
 - [JS Function Drills](function_drills) 
 - [Blog Mockup](blog_mockup)
-- [Array Methods](https://git.generalassemb.ly/SEIR-Margaret/homework-w01d04/blob/master/array-methods-callbacks.md)
+- [Array Methods](array-methods-callbacks)
 
 All three are required to have your assignment marked as complete, so make sure you attempt and work on **all** assignments.
 
@@ -35,6 +35,7 @@ The instructions for both assignments can be found in their respective folders/f
 ## Deliverables
 
 - A `solutions.js` file inside of the function_drills folder with your attempts at solving the function drill problems and Array Methods problems.
+- A `solutions.js` file inside of the array_methods folder with your attempts at solving Array methods problems.
 - `index.html` and `style.css` files inside of the blog_mockup folder with your attempts at recreating the given blog mockup
 
 ## Submission Guidelines
