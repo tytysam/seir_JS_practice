@@ -136,12 +136,7 @@ Your commit message should read something like: <br>
 
 ## Hungry for More? 
 
-Didn't finish the labs? Go back and try to finish those! 
-
-- [Morning Lab](../../student_labs/morning_lab.md)
-- [Afternoon Lab](../../student_labs/afternoon_lab.md)
-
-Finished those and still want more? Take a crack at the problems below (click each title to see the problem)
+Finished  and still want more? Take a crack at the problems below (click each title to see the problem)
 
 <details><summary><strong>Digit Sum</strong></summary>
 
