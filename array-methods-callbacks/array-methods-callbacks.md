@@ -16,7 +16,7 @@
 
 ### Array Methods with Callbacks
 
-A few array methods use callbacks. For example `.map` - `.map` takes each element of an array and does something to it and returns a new arrays.
+A few array methods use callbacks. For example `.map`. The `.map` method takes each element of an array and does something to it and returns a new arrays.
 
 But what should it do? Multiply everything by 5? Capitalize everything? If `.map` had a hard-coded thing it always did with an array, it wouldn't be very flexible.
 
