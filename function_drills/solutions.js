@@ -16,12 +16,25 @@
 
 //TEST --> 'racecar'
 
-const checkPalindrome = (string) => {
-  //we could use a regular expression to remove any unwanted spaces/characters, but that might be beyond me tonight.
-  let lowerCaseString = string.toLowerCase();
-  //RESOURCE: https://medium.com/sonyamoisset/reverse-a-string-in-javascript-a18027b8e91c
-  let reverseString = lowerCaseString.split("").reverse().join("");
-  return reverseString === lowerCaseString;
+// const checkPalindrome = (string) => {
+//   //we could use a regular expression to remove any unwanted spaces/characters, but that might be beyond me tonight.
+//   let lowerCaseString = string.toLowerCase();
+//   //RESOURCE: https://medium.com/sonyamoisset/reverse-a-string-in-javascript-a18027b8e91c
+//   let reverseString = lowerCaseString.split("").reverse().join("");
+//   return reverseString === lowerCaseString;
+// };
+
+// console.log(checkPalindrome("RaCeCaR"));
+
+//Sum Array
+const numbers = [1, 2, 3, 4, 5, 6];
+
+let newSum = 0;
+const sumArray = (array) => {
+  for (let i = 0; i < array.length; i++) {
+    newSum += array[i];
+  }
+  return newSum;
 };
 
-console.log(checkPalindrome("RaCeCaR"));
+console.log(sumArray(numbers));
