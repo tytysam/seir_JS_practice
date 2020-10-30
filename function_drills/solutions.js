@@ -26,15 +26,40 @@
 
 // console.log(checkPalindrome("RaCeCaR"));
 
-//Sum Array
-const numbers = [1, 2, 3, 4, 5, 6];
+// //Sum Array
+// const numbers = [1, 2, 3, 4, 5, 6];
 
-let newSum = 0;
-const sumArray = (array) => {
-  for (let i = 0; i < array.length; i++) {
-    newSum += array[i];
+// let newSum = 0;
+// const sumArray = (array) => {
+//   for (let i = 0; i < array.length; i++) {
+//     newSum += array[i];
+//   }
+//   return newSum;
+// };
+
+// console.log(sumArray(numbers));
+
+//Prime Numbers
+const checkPrime = (num) => {
+  //You need to start i @ 2 because it is the first prime number.
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) return false;
   }
-  return newSum;
+  return true;
 };
 
-console.log(sumArray(numbers));
+const printPrimes = (num) => {
+  //Again, we need to start our array with a value of 2 since that is the first
+  //prime number
+  let arr = [2];
+  for (let i = 3; i < num; i += 2) {
+    if (checkPrime(i)) {
+      arr.push(i);
+    }
+  }
+  console.log(arr);
+};
+
+// console.log(checkPrime(7));
+
+printPrimes(97);
